@@ -165,7 +165,7 @@ var defaultCacheConfig = &CacheConfig{
 	TrieDirtyLimit: 256,
 	TrieTimeLimit:  5 * time.Minute,
 	SnapshotLimit:  256,
-	TriesInMemory:  128,
+	TriesInMemory:  4,
 	SnapshotWait:   true,
 }
 
